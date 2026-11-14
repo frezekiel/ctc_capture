@@ -1,0 +1,7 @@
+# Optional: copy to .streamlit/config.toml for local use.
+[server]
+headless = false
+runOnSave = true
+
+[browser]
+gatherUsageStats = false

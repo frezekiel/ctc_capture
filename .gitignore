@@ -1,0 +1,32 @@
+# Virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Research data: NEVER commit local captures or backups
+data/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db-*
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# Minimal synthetic regression fixtures and documented test workbook
+!samples/ctc_capture_test.xlsx
+!tests/fixtures/ctc_v13_synthetic.sqlite
+!tests/fixtures/ctc_v14_synthetic.sqlite
+
+# Private configuration and platform files
+.env
+.env.*
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
